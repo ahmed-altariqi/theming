@@ -2,9 +2,9 @@
 
 ### Shadcn/ui
 
-I depend heavily on [shadcn/ui]("https://ui.shadcn.com/"), so familiarizing yourself with their theming conventions is important.
+I depend heavily on [shadcn/ui](https://ui.shadcn.com/), so familiarizing yourself with their theming conventions is important.
 
-Here's an example of shadcn's [custom properties]("https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties")
+Here's an example of shadcn's [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 ```css
 :root {
@@ -24,7 +24,7 @@ And here's how we can overwrite specific custom properties using classes like th
 
 ### Zustand
 
-I chose [Zustand]("https://docs.pmnd.rs/zustand/getting-started/introduction") to seamlessly manage the theme state and make it persist in local storage.
+I chose [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) to seamlessly manage the theme state and make it persist in local storage.
 
 My theme store consist of the following:
 

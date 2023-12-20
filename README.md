@@ -4,7 +4,7 @@
 
 I depend heavily on [shadcn/ui](https://ui.shadcn.com/), so familiarizing yourself with their theming conventions is important.
 
-Here's an example of shadcn's [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+Here's an example of how [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) are being used:
 
 ```css
 :root {
@@ -38,7 +38,7 @@ My theme store consist of the following:
     // Get the primary color from our themes object
     const primaryColor = themes[className].primaryColor;
 
-    // Update our store with
+    // Update our store
     set({ theme: { className, primaryColor}})
   }
 }
